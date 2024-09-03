@@ -5,14 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import com.swaglab.runner.Runner_swaglab;
+import com.swaglab.runner.TestRunner;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Stepdefinition_adactin {
-	static WebDriver driver = Runner_swaglab.driver;
+	static WebDriver driver = TestRunner.driver;
 	
 	@Given("User launch adactin application")
 	public void user_launch_adactin_application() {

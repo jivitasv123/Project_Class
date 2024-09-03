@@ -18,7 +18,7 @@ glue = "com.swaglab.stepdefinition",
 plugin = {"json:target/report.json",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" })
 
-public class Runner_swaglab extends BaseClass {
+public class TestRunner extends BaseClass {
 	public static WebDriver driver;
 
 	@BeforeClass

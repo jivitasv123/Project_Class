@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import com.ReusableMethods.BaseClass;
-import com.swaglab.runner.Runner_swaglab;
+import com.swaglab.runner.TestRunner;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Stepdefinition_swaglab extends BaseClass {
 	
-	public WebDriver driver = Runner_swaglab.driver;
+	public WebDriver driver = TestRunner.driver;
 	
 	@Given("User launch swaglab application")
 	public void user_launch_swaglab_application() {
