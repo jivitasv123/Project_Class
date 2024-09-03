@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test  name="Login with valid credentials">
+    <parameter name="username" value="standard_user"></parameter>
+    <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="com.TestNg_concepts.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="Login with Invalid credentials">
+    <parameter name="username" value="problem_user"></parameter>
+    <parameter name="password" value="helloswag"></parameter>
+    <classes>
+      <class name="com.TestNg_concepts.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite>

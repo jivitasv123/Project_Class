@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-19T11:11:22 IST" name="Default suite" finished-at="2024-08-19T11:11:41 IST" duration-ms="19744">
+    <groups>
+    </groups>
+    <test started-at="2024-08-19T11:11:22 IST" name="Default test" finished-at="2024-08-19T11:11:41 IST" duration-ms="19744">
+      <class name="com.TestNg_concepts.ParameterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:22 IST" name="setup" finished-at="2024-08-19T11:11:24 IST" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:24 IST" name="loginTest" data-provider="myCredentials" finished-at="2024-08-19T11:11:25 IST" duration-ms="1036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:25 IST" name="tearDown" finished-at="2024-08-19T11:11:28 IST" duration-ms="2512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:28 IST" name="setup" finished-at="2024-08-19T11:11:29 IST" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:29 IST" name="loginTest" data-provider="myCredentials" finished-at="2024-08-19T11:11:30 IST" duration-ms="515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:30 IST" name="tearDown" finished-at="2024-08-19T11:11:32 IST" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:32 IST" name="setup" finished-at="2024-08-19T11:11:34 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:34 IST" name="loginTest" data-provider="myCredentials" finished-at="2024-08-19T11:11:34 IST" duration-ms="529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[helloworld]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:34 IST" name="tearDown" finished-at="2024-08-19T11:11:37 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:37 IST" name="setup" finished-at="2024-08-19T11:11:38 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:38 IST" name="loginTest" data-provider="myCredentials" finished-at="2024-08-19T11:11:39 IST" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swaglabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNg_concepts.ParameterTest@485966cc]" started-at="2024-08-19T11:11:39 IST" name="tearDown" finished-at="2024-08-19T11:11:41 IST" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNg_concepts.ParameterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
