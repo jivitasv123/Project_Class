@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = ".\\src\\test\\java\\com\\swaglab\\feature\\swaglab.feature",
 glue = "com.swaglab.stepdefinition", 
-plugin = {"json:target/report.json",
+plugin = {"json:Reports/report.json",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" })
 
 public class TestRunner extends BaseClass {
